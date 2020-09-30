@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>FIME-EXPERIENCIA VIRTUAL</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+ 
+  <!-- A-Frame -->
+    <script src="js/aframe-master.js"></script>
+
+</head>
+<style>
+  .navbar{
+    background-color:#155531 !important; 
+  }
+  .nav-link{
+    color:white !important;
+  }
+   a-scene {
+    height: 300px;
+    width: 100%;
+  }
+  
+</style>
+
+<body>
+
+ 
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"> <i class="fas fa-vr-cardboard"></i> FIME</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="recorrido.html">Recorrido</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="laboratorios.html">Laboratorios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galeria.html">FIME3D</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="eventos.html">Eventos Especiales </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page Content -->
+  <div class="container"><br>
+
+    <!-- Page Heading/Breadcrumbs -->
+    
+    
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="index.html">Inicio</a>
+      </li>
+      <li class="breadcrumb-item active">Recorrido</li>
+    </ol>
+    <div class="row">
+      <div class="col-lg-3"> <br>
+       <div class="card text-center">
+          <img class="card-img-top" src="img/logo.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">Para poder conocer mas acerca de este recorrido regístrate y disfruta la experiencia que te ofrecemos.</p>
+            <a href="https://www.daltile.com.mx/app" class="btn btn-success">Registrase</a>
+          </div>
+        </div>
+      </div>
+      <!-- /.col-lg-3 -->
+
+      <div class="col-lg-9">
+       <div class="card mt-4">
+           <div id="myEmbeddedScene">
+           <a-scene embedded>
+            <a-sky src="imgR/360_6k_huella_denoise_web_1.jpg" rotation="0 -92 0"></a-sky>
+          </a-scene>
+           </div>
+
+          <div class="card-body">
+          
+            <p class="card-text">La feria del empleo nos ofrece conocer las vacantes e información de Empresas reconocidas en el área de la Ingeniería para tu formación como alumno, así como la experiencia de conocer y prepararte en el ámbito laboral.
+             </p><br><br> 
+          </div>
+        </div>
+        </div>
+          <!--/.col-lg-9 -->
+       
+          <!-- Page Heading/Breadcrumbs -->
+    <h4 class="mt-4 mb-3">Empresas participantes: </h4>
+        <!-- Page Content -->
+  
+        <div class="row">
+          <div class="col-lg-6 portfolio-item">
+            <div class="card h-100">
+              <div id="myEmbeddedScene1">
+                <a-scene embedded>
+                 <a-sky src="imgR/360_6k_pasillo_denoise_web_3.jpg" rotation="0 -92 0"></a-sky>
+                </a-scene>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Daltile</a>
+                </h4>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 portfolio-item">
+            <div class="card h-100">
+              <div id="myEmbeddedScene2">
+                <a-scene embedded>
+                   <a-sky src="imgR/360_6k_pasillo_denoise_web_4.jpg" rotation="0 -92 0"></a-sky>
+                </a-scene>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Frisa</a>
+                </h4>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 portfolio-item">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Nombre de la empresa</a>
+                </h4>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 portfolio-item">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Nombre de la empresa</a>
+                </h4>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+
+   <!-- /.container -->
+
+  <!-- Footer -->
+  <!--<footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">FIME &copy; UANL</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
